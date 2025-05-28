@@ -25,7 +25,7 @@ for block_number in range(0, last_block + 1):
        
         if block_number % 100 == 0:
             print(f"--> Jusqu'au bloc {block_number} traité")
-            time.sleep(0.05)  # Pour limiter la charge
+            time.sleep(0.05)
  
     except Exception as e:
         print(f"Erreur au bloc {block_number} : {e}")

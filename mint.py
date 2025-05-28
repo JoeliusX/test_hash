@@ -8,12 +8,12 @@ private_key = "8cbe7c612e2a0f636008d64c0f2983b89ffb89b1fcb0f0a89cf438c8b68e727b"
 w3 = Web3(Web3.HTTPProvider("http://10.229.43.182:8545"))  # Remplacez par l'URL de votre nœud
 assert w3.is_connected(), "Échec de la connexion au nœud Ethereum"
 
-URI =  "https://imgur.com/a/hJIEEcc"
+URI = "https://raw.githubusercontent.com/JoeliusX/test_hash/refs/heads/main/metadata.json"
 
 # Adresse et ABI du contrat déployé
-contract_address = "0x28eE64601A58EDC21BC2Da9e33448c2822371dED"
-deployer_address = "0x13cacedfb1b86e047cb21a5fa1c6d53417c3d69d"
-recipient_address = "0x13cacedfb1b86e047cb21a5fa1c6d53417c3d69d"
+contract_address = "0x26d9897fD5BCA1a3041692936c0163B90eb9E38C"
+deployer_address = "0x75f81784678369d1C71B2EE3C0edAa6E0aFB48Ad"
+recipient_address = "0x75f81784678369d1C71B2EE3C0edAa6E0aFB48Ad"
 
 sender_address = w3.to_checksum_address(deployer_address)
 
