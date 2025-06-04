@@ -11,7 +11,7 @@ assert w3.is_connected(), "Échec de la connexion au nœud Ethereum"
 URI = "https://raw.githubusercontent.com/JoeliusX/test_hash/refs/heads/main/metadata.json"
 
 # Adresse et ABI du contrat déployé
-contract_address = "0x26d9897fD5BCA1a3041692936c0163B90eb9E38C"
+contract_address = "0x01180095074dA62044bb9f69F1C5c10aD089D160"
 deployer_address = "0x75f81784678369d1C71B2EE3C0edAa6E0aFB48Ad"
 recipient_address = "0x75f81784678369d1C71B2EE3C0edAa6E0aFB48Ad"
 
